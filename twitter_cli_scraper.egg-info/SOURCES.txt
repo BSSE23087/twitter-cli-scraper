@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+scraper/__init__.py
+scraper/twitter_scraper.py
+twitter_cli_scraper.egg-info/PKG-INFO
+twitter_cli_scraper.egg-info/SOURCES.txt
+twitter_cli_scraper.egg-info/dependency_links.txt
+twitter_cli_scraper.egg-info/entry_points.txt
+twitter_cli_scraper.egg-info/requires.txt
+twitter_cli_scraper.egg-info/top_level.txt

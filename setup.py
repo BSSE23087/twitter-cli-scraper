@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='twitter-scraper-cli',
-    version='0.1',
+    name='twitter-cli-scraper',
+    version='0.1.1',
     packages=find_packages(),
     install_requires=[
         'selenium',
@@ -19,7 +19,7 @@ setup(
     description='A CLI tool for scraping Twitter trends and tweets.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/bsse23087/twitter-scraper-cli',
+    url='https://github.com/bsse23087/twitter-cli-scraper',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',

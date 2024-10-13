@@ -13,7 +13,7 @@ A Python package to scrape Twitter trends and tweets using Selenium. It provides
 To install the package, run:
 
 ```bash
-pip install twitter-scraper-cli
+pip install twitter-cli-scraper
 ```
 
 ## Usage
@@ -49,7 +49,6 @@ twitter-scraper --username your_twitter_username --password your_twitter_passwor
 
 This will scrape tweets containing the term "WorldCup2024" and save the results in an Excel file called `tweets.xlsx`.
 
-
 ### 3. Available Fields to Scrape
 
 When scraping tweets, you can specify which fields you want to extract by using the `--fields` option. You can choose from the following fields:
@@ -76,7 +75,6 @@ twitter-scraper --username your_username --password your_password --action scrap
 
 ```
 
-
 This command will scrape tweets related to the "Olympics" trend and include tweet text and like counts in the output.
 
 ## Command Line Arguments
@@ -92,23 +90,19 @@ This command will scrape tweets related to the "Olympics" trend and include twee
 * **Trends** : Saved as `trends.xlsx` containing trending topics and related keywords.
 * **Tweets** : Saved as `tweets.xlsx` containing the scraped data based on the specified fields (e.g., tweet text, images, likes).
 
-
 ## Error Handling
 
 If any error occurs during the scraping process, the scraper will attempt to handle it gracefully and log the error for further inspection.
 
-
 ## Contributing
 
-Contributions are welcome! If you find any bugs or want to request a new feature, feel free to open an issue on the [Github repository](https://github.com/bsse23087/twitter-scraper-cli).
-
+Contributions are welcome! If you find any bugs or want to request a new feature, feel free to open an issue on the [Github repository](https://github.com/bsse23087/twitter-cli-scraper).
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/bsse23087/twitter-scraper-cli/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/bsse23087/twitter-cli-scraper/blob/main/LICENSE) file for details.
 
 **Disclaimer** : This tool is for educational purposes only. Please ensure you comply with Twitter's [Terms of Service](https://twitter.com/en/tos) when using this scraper.
-
 
 ### Breakdown:
 
