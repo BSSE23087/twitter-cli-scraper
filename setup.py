@@ -11,7 +11,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'twitter-scraper=your_package.twitter_scraper:main',
+            'twitter-scraper=scraper.twitter_scraper:main',
         ],
     },
     author='Muhammad Abdullah',
